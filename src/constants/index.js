@@ -158,10 +158,10 @@ const technologies = [
         name: "Jira",
         icon: jira,
     },
-    {
-        name: "Pandas",
-        icon: pandas,
-    },
+    // {
+    //     name: "Pandas",
+    //     icon: pandas,
+    // },
     // {
     //     name: "NumPy",
     //     icon: numpy,
