@@ -61,7 +61,10 @@ const Navbar = () => {
                     setActive(Link.title)
                   }}
                 >
-                  <a href={`#${Link.id}`}>{Link.title}</a>
+                  {/* <a href={`#${Link.id}`}>{Link.title}</a> */}
+                  <a href={Link.title === "Resume" ? Link.id : `#${Link.id}`}
+                    target={Link.title === "Resume" ? "_blank" : "_self"}
+                    rel={Link.title === "Resume" ? "noopener noreferrer" : ""}>{Link.title}</a>
                 </li>
               ))}
             </ul>
