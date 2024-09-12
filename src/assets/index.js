@@ -26,7 +26,7 @@ import aws from "./tech/aws.png";
 import terraform from "./tech/terraform.svg";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
-import jira from "./tech/jira.png";
+import jira from "./tech/Jira.png";
 import pandas from "./tech/Pandas.png";
 import numpy from "./tech/NumPy.png";
 import jenkins from "./tech/Jenkins.png";
