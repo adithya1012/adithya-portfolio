@@ -314,7 +314,7 @@ const projects = [
             // },
         ],
         image: gge,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/adithya1012/global_gateway_edu",
     },
 ];
 
