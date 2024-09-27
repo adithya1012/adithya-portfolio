@@ -18,7 +18,7 @@ const TypingAnim = () => {
                 1000,
                 'Problem Solver.',
                 2000,
-                'AI & Cloud Enthusiast.',
+                'Cloud & AI Enthusiast.',
                 1500,
             ]}
             speed={50}
