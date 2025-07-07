@@ -39,10 +39,12 @@ import metricstream from "./company/metricstream.png";
 import tesla from "./company/tesla.png";
 import vtu from "./company/vtu.png";
 import purdue from "./company/Purdue.png";
+import mie from "./company/MIE.png";
 
 import chatbot from "./chatbot.png";
 import bugclassification from "./bugClassification.png";
 import gge from "./gge.png";
+import devassist from "./devassist.jpeg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -93,4 +95,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  mie,
+  devassist,
 };
