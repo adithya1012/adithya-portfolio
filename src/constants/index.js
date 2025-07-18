@@ -178,7 +178,7 @@ const experiences = [
     // iconBg: "white",
     date: "Feb 2025 - Present",
     points: [
-      "Integrating a RAG pipeline in Ozwell.ai to retrieve patient data from WebChartNow.com, index it in ChromaDB, and aiming to boost query accuracy by 50% with patient specific insights.",
+      "Integrated a RAG pipeline to retrieve patient data, index it in ChromaDB, and aiming to boost query accuracy by 50% with patient specific insights.",
       "Published a custom Model Context Protocol (MCP) server on PyPI to enable LLM-based clients to access and communicate with NASA open-source APIs, retrieve mission data, and present real-time results to users. [[LINK](https://pypi.org/project/nasa-mcp-server/)]",
     ],
   },
