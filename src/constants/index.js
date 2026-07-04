@@ -50,6 +50,10 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "skills",
+    title: "Skills",
+  },
+  {
     id: "work",
     title: "Work",
   },
@@ -167,6 +171,78 @@ const technologies = [
   //     name: "NumPy",
   //     icon: numpy,
   // },
+];
+
+const skills = [
+  {
+    title: "Programming Languages",
+    color: "blue-text-gradient",
+    items: ["Python", "TypeScript", "C++", "Java", "SQL", "Shell"],
+  },
+  {
+    title: "Frameworks & Libraries",
+    color: "green-text-gradient",
+    items: [
+      "React",
+      "Node.js",
+      "Flask",
+      "Django",
+      "FastAPI",
+      "Spring Boot",
+      "Plotly",
+      "Dash",
+      "NumPy",
+      "Pandas",
+      "Qt",
+      "Next.js",
+    ],
+  },
+  {
+    title: "DevOps & Systems",
+    color: "pink-text-gradient",
+    items: [
+      "AWS (S3, EC2, EBS, Lambda)",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "CI/CD",
+      "Jenkins",
+      "OAuth 2.0",
+      "Git",
+      "Jira",
+      "Kafka",
+      "REST",
+      "Data Structures & Algorithms",
+      "System Design",
+      "Distributed Systems",
+    ],
+  },
+  {
+    title: "Databases & AI/ML",
+    color: "orange-text-gradient",
+    items: [
+      "SQL",
+      "MongoDB",
+      "Redis",
+      "DynamoDB",
+      "Machine Learning",
+      "NLP",
+      "LLM",
+      "RAG",
+    ],
+  },
+  {
+    title: "AI Tools & Agentic Coding",
+    color: "blue-text-gradient",
+    items: [
+      "Claude Code",
+      "GitHub Copilot",
+      "Cursor",
+      "Cline",
+      "OpenAI Codex",
+      "MCP",
+    ],
+  },
 ];
 
 const experiences = [
@@ -357,6 +433,7 @@ const projects = [
 export {
   services,
   technologies,
+  skills,
   experiences,
   testimonials,
   projects,
