@@ -201,7 +201,7 @@ const skills = [
     title: "DevOps & Systems",
     color: "pink-text-gradient",
     items: [
-      "AWS (S3, EC2, EBS, Lambda)",
+      "AWS",
       "Docker",
       "Kubernetes",
       "Terraform",
