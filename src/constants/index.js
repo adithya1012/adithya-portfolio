@@ -58,7 +58,7 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "https://drive.google.com/file/d/1rw_WWid73s-cgZUtX-g2pQ0K71hLPtL0/view?usp=sharing",
+    id: `${import.meta.env.BASE_URL}Adithya_Resume.pdf`,
     title: "Resume",
   },
 ];
@@ -76,10 +76,10 @@ const services = [
     title: "Cloud Software Engineer",
     icon: backend,
   },
-  // {
-  //   title: "Machine Learning Engineer",
-  //   icon: creator,
-  // },
+  {
+    title: "AI/ML Engineer",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -178,25 +178,22 @@ const experiences = [
     // iconBg: "white",
     date: "Feb 2025 - Present",
     points: [
-      // "Architected and deployed a scalable RAG-based AI system using ChromaDB and LLMs to retrieve and index patient records, improving contextual query accuracy and enabling domain-specific reasoning.",
-      // "Designed and published a Model Context Protocol (MCP) server enabling agent-to-agent (A2A) communication between LLM clients and external APIs, supporting tool invocation and real-time data retrieval. [[LINK](https://pypi.org/project/nasa-mcp-server/)]",
-      // "Building Pulse an Android video editing application using React Native. Implemented a secure end-to-end OAuth 2.0 authentication system with PKCE, JWT token lifecycle, and deep-link based mobile login. [[LINK](https://play.google.com/store/apps/details?id=com.mieweb.pulse)]"
-      "Integrating a RAG pipeline in Ozwell.ai to retrieve patient data from webchartnow.com, index it in ChromaDB, and aiming to boost query accuracy by 50% with patient-specific insights.",
-      "Published a custom Model Context Protocol (MCP) server on PyPI to enable LLM-based clients to access and communicate with NASA open-source APIs, retrieve mission data, and present real-time results to users.[[LINK](https://pypi.org/project/nasa-mcp-server/)]",
-      "Building Pulse an Android video editing application using React Native. Implemented a secure end-to-end OAuth 2.0 authentication system with PKCE, JWT token lifecycle, and deep-link based mobile login. [[LINK](https://play.google.com/store/apps/details?id=com.mieweb.pulse)]"
+      "Integrated a RAG pipeline in Ozwell.ai indexing patient data in ChromaDB, targeting a 50% query accuracy gain, and published a custom Model Context Protocol (MCP) server on PyPI enabling LLM clients to access NASA APIs and present real-time data. [[LINK](https://pypi.org/project/nasa-mcp-server/)]",
+      "Contributed to PulseVault, a HIPAA-compliant video storage platform, building React components and Fastify REST APIs (HL7/FHIR-aligned) for resumable uploads and HLS adaptive streaming, with storage via AWS S3/R2.",
+      "Building Pulse, an Android video editing application using React Native. Implemented a secure end-to-end OAuth 2.0 authentication system with PKCE, JWT token lifecycle, and deep-link based mobile login. [[LINK](https://play.google.com/store/apps/details?id=com.mieweb.pulse)]",
     ],
   },
   {
     title: "Full Stack Developer",
-    company_name: "INTEL TECHNOLOGY",
+    company_name: "INTEL CORPORATION",
     icon: intel,
     iconBg: "#0c3a41",
     // iconBg: "white",
     date: "May 2021 - Jul 2023",
     points: [
-      "Developed Windows application (.exe) for Edge Software Hub project. Was part of the team comprising two engineers. Optimising the efficiency of .exe through incorporating multithreading, parallel programming, and other OOP concepts.",
-      "Taking responsibility on DevOps for the Management Console (internal) project, including setup and configuration of Cloud Foundry and Jenkins.",
-      "Implemented Ec2 plugin in Jenkins that will spin dynamic instances in AWS for Jenkins’s node. This reduced 30% cost for the company from an infrastructure perspective. Worked on Proof of Concepts on Terraform for creating AWS service based on the user requirements through Jenkins.",
+      "Developed a Windows application (.exe) for the Edge Software Hub project as part of a two-engineer team, optimizing efficiency through multithreading, parallel programming, and OOP concepts, which improved application performance.",
+      "Managed DevOps operations for the internal Management Console project, leading the setup and seamless configuration of Cloud Foundry and Jenkins, achieving a 20% reduction in deployment time.",
+      "Implemented an EC2 plugin in Jenkins to spin instances in AWS for Jenkins nodes, reducing infrastructure costs by 30%. Utilized Terraform to create AWS services through Jenkins, enhancing automation and efficiency in the process.",
     ],
   },
   {
@@ -207,9 +204,9 @@ const experiences = [
     // iconBg: "white",
     date: "Aug 2019 - May 2021",
     points: [
-      "Developed Metrics Analytics Dashboard is a one stop Manager/Director level-oriented tool to derive meaningful insights and enable data driven decisions.",
-      "Data was extracted from JIRA using JIRA client API by running a Job Scheduler every day and developed dash-boards/charts like Sprint projection, Release coverage, Velocity chart, Defect removal efficiency and many more using Python and Plotly Dash.",
-      "This Analytics Dashboard has been automated to reduce manual work by 70% for Manager/Director to derive insights and present it to Board members.",
+      "Built RESTful APIs with Java Spring Boot to expose JIRA project and team-performance data from a PostgreSQL database, serving analytics dashboards used by Managers and Directors for data-driven decisions.",
+      "Implemented data-access layers using Spring Data JPA to query and transform daily JIRA data from Postgres, powering dashboards that improved visibility into team metrics and project-tracking efficiency by 40%.",
+      "Designed and automated REST endpoints serving aggregated analytics, reducing manual reporting work by 70% for Managers/Directors presenting to Board members.",
     ],
   },
 ];

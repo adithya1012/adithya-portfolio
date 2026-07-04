@@ -93,7 +93,7 @@ const Contact = () => {
             <div
               onClick={() =>
                 window.open(
-                  "https://www.linkedin.com/in/adithya-seesanabilu-nagaraj-1aa96216b/",
+                  "https://www.linkedin.com/in/adithya-sn/",
                   "_blank"
                 )
               }

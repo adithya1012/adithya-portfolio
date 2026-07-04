@@ -47,12 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Python, Java
-        and expertise in frameworks like React, Node.js, and Flask.
-        I excel at building full-stack applications and leveraging AI to create innovative solutions.
-        With a strong ability to adapt quickly to new technologies and challenges,
-        I collaborate effectively to deliver scalable, efficient, and impactful software
-        that meets real-world needs. Let's work together to bring your vision to life!
+        I'm a skilled software developer with experience in Python, TypeScript,
+        and Java, and expertise in frameworks like React, Node.js, FastAPI, and
+        Spring Boot. I excel at building full-stack applications and AI-powered
+        solutions — from RAG pipelines and MCP servers to LLM-based developer
+        tools — backed by cloud and DevOps skills across AWS, Docker,
+        Kubernetes, and Terraform. With a strong ability to adapt quickly to
+        new technologies and challenges, I collaborate effectively to deliver
+        scalable, efficient, and impactful software that meets real-world
+        needs. Let's work together to bring your vision to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
